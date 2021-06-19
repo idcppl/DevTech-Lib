@@ -1,0 +1,65 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven { url = "https://jitpack.io" }
+        maven { url = "http://maven.minecraftforge.net/" }
+    }
+    dependencies {
+        classpath('com.github.DStrand1:ForgeGradle:FG_2.3-SNAPSHOT')
+    }
+}
+apply plugin: 'net.minecraftforge.gradle.forge'
+
+version = "0.0.2"
+group = "com.zook.devtechlib"
+archivesBaseName = "devtechlib"
+
+sourceCompatibility = targetCompatibility = '1.8'
+compileJava {
+    sourceCompatibility = targetCompatibility = '1.8'
+}
+
+minecraft {
+    version = "1.12.2-14.23.5.2847"
+    runDir = "run"
+    mappings = "snapshot_20171003"
+}
+
+repositories {
+    maven {
+        url = "https://maven.blamejared.com/"
+    }
+    maven {
+        url = "https://minecraft.curseforge.com/api/maven"
+    }
+    maven {
+        url = "http://chickenbones.net/maven/"
+    }
+    maven {
+        url = "https://dvs1.progwml6.com/files/maven/"
+    }
+}
+
+dependencies {
+    deobfCompile "CraftTweaker2:CraftTweaker2-MC1120-Main:1.12-4.1.20.594"
+    provided "mezz.jei:jei_1.12.2:4.15.0.293:api"
+    runtime "mezz.jei:jei_1.12.2:4.15.0.293"
+
+    deobfCompile "gregtechce:gregtech:1.12.2:1.15.1.735"
+
+    deobfCompile "codechicken-lib-1-8:CodeChickenLib-1.12.2:3.2.3.357:universal"
+}
+
+processResources {
+    inputs.property "version", project.version
+    inputs.property "mcversion", project.minecraft.version
+
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+        expand 'version':project.version, 'mcversion':project.minecraft.version
+    }
+
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info'
+    }
+}

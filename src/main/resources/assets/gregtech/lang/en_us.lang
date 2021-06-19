@@ -1,0 +1,6 @@
+metaitem.test.name=Test Item
+
+metaitem.behavior.proxy_mode_switch.mode_switched=§eMode Set to: %s
+metaitem.behavior.proxy_mode_switch.current_mode=Mode: %s
+
+metaitem.brick.fireclay.override.name=Hello my Lady

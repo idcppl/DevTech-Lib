@@ -1,0 +1,74 @@
+package com.zook.devtechlib.api.recipes.crafttweaker.constants;
+
+import com.zook.devtechlib.api.recipes.crafttweaker.CTTextureArea;
+import crafttweaker.annotations.ZenRegister;
+import gregtech.api.gui.GuiTextures;
+import stanhebben.zenscript.annotations.ZenClass;
+import stanhebben.zenscript.annotations.ZenProperty;
+
+@ZenClass("mods.devtech.GUITextures")
+@ZenRegister
+public class ConstantGUITexture {
+    @ZenProperty public static final CTTextureArea TOOL_SLOT_OVERLAY = new CTTextureArea(GuiTextures.TOOL_SLOT_OVERLAY);
+    @ZenProperty public static final CTTextureArea ARROW_INPUT_OVERLAY = new CTTextureArea(GuiTextures.ARROW_INPUT_OVERLAY);
+    @ZenProperty public static final CTTextureArea ARROW_OUTPUT_OVERLAY = new CTTextureArea(GuiTextures.ARROW_OUTPUT_OVERLAY);
+    @ZenProperty public static final CTTextureArea CHARGER_OVERLAY = new CTTextureArea(GuiTextures.CHARGER_OVERLAY);
+    @ZenProperty public static final CTTextureArea INT_CIRCUIT_OVERLAY = new CTTextureArea(GuiTextures.INT_CIRCUIT_OVERLAY);
+    @ZenProperty public static final CTTextureArea TURBINE_OVERLAY = new CTTextureArea(GuiTextures.TURBINE_OVERLAY);
+    @ZenProperty public static final CTTextureArea FURNACE_OVERLAY = new CTTextureArea(GuiTextures.FURNACE_OVERLAY);
+    @ZenProperty public static final CTTextureArea COMPRESSOR_OVERLAY = new CTTextureArea(GuiTextures.COMPRESSOR_OVERLAY);
+    @ZenProperty public static final CTTextureArea EXTRACTOR_OVERLAY = new CTTextureArea(GuiTextures.EXTRACTOR_OVERLAY);
+    @ZenProperty public static final CTTextureArea CRUSHED_ORE_OVERLAY = new CTTextureArea(GuiTextures.CRUSHED_ORE_OVERLAY);
+    @ZenProperty public static final CTTextureArea DUST_OVERLAY = new CTTextureArea(GuiTextures.DUST_OVERLAY);
+    @ZenProperty public static final CTTextureArea INGOT_OVERLAY = new CTTextureArea(GuiTextures.INGOT_OVERLAY);
+    @ZenProperty public static final CTTextureArea CIRCUIT_OVERLAY = new CTTextureArea(GuiTextures.CIRCUIT_OVERLAY);
+    @ZenProperty public static final CTTextureArea BATTERY_OVERLAY = new CTTextureArea(GuiTextures.BATTERY_OVERLAY);
+    @ZenProperty public static final CTTextureArea PRESS_OVERLAY_1 = new CTTextureArea(GuiTextures.PRESS_OVERLAY_1);
+    @ZenProperty public static final CTTextureArea PRESS_OVERLAY_2 = new CTTextureArea(GuiTextures.PRESS_OVERLAY_2);
+    @ZenProperty public static final CTTextureArea PRESS_OVERLAY_3 = new CTTextureArea(GuiTextures.PRESS_OVERLAY_3);
+    @ZenProperty public static final CTTextureArea DARK_CANISTER_OVERLAY = new CTTextureArea(GuiTextures.DARK_CANISTER_OVERLAY);
+    @ZenProperty public static final CTTextureArea CANISTER_OVERLAY = new CTTextureArea(GuiTextures.CANISTER_OVERLAY);
+    @ZenProperty public static final CTTextureArea LENS_OVERLAY = new CTTextureArea(GuiTextures.LENS_OVERLAY);
+    @ZenProperty public static final CTTextureArea CRYSTAL_OVERLAY = new CTTextureArea(GuiTextures.CRYSTAL_OVERLAY);
+    @ZenProperty public static final CTTextureArea BREWER_OVERLAY = new CTTextureArea(GuiTextures.BREWER_OVERLAY);
+    @ZenProperty public static final CTTextureArea SOLIDIFIER_OVERLAY = new CTTextureArea(GuiTextures.SOLIDIFIER_OVERLAY);
+    @ZenProperty public static final CTTextureArea MOLECULAR_OVERLAY_1 = new CTTextureArea(GuiTextures.MOLECULAR_OVERLAY_1);
+    @ZenProperty public static final CTTextureArea MOLECULAR_OVERLAY_2 = new CTTextureArea(GuiTextures.MOLECULAR_OVERLAY_2);
+    @ZenProperty public static final CTTextureArea MOLECULAR_OVERLAY_3 = new CTTextureArea(GuiTextures.MOLECULAR_OVERLAY_3);
+    @ZenProperty public static final CTTextureArea VIAL_OVERLAY_1 = new CTTextureArea(GuiTextures.VIAL_OVERLAY_1);
+    @ZenProperty public static final CTTextureArea VIAL_OVERLAY_2 = new CTTextureArea(GuiTextures.VIAL_OVERLAY_2);
+    @ZenProperty public static final CTTextureArea WIREMILL_OVERLAY = new CTTextureArea(GuiTextures.WIREMILL_OVERLAY);
+    @ZenProperty public static final CTTextureArea BENDER_OVERLAY = new CTTextureArea(GuiTextures.BENDER_OVERLAY);
+    @ZenProperty public static final CTTextureArea CANNER_OVERLAY = new CTTextureArea(GuiTextures.CANNER_OVERLAY);
+    @ZenProperty public static final CTTextureArea PIPE_OVERLAY_1 = new CTTextureArea(GuiTextures.PIPE_OVERLAY_1);
+    @ZenProperty public static final CTTextureArea PIPE_OVERLAY_2 = new CTTextureArea(GuiTextures.PIPE_OVERLAY_2);
+    @ZenProperty public static final CTTextureArea BOX_OVERLAY = new CTTextureArea(GuiTextures.BOX_OVERLAY);
+    @ZenProperty public static final CTTextureArea BOXED_OVERLAY = new CTTextureArea(GuiTextures.BOXED_OVERLAY);
+    @ZenProperty public static final CTTextureArea CUTTER_OVERLAY = new CTTextureArea(GuiTextures.CUTTER_OVERLAY);
+    @ZenProperty public static final CTTextureArea MOLD_OVERLAY = new CTTextureArea(GuiTextures.MOLD_OVERLAY);
+    @ZenProperty public static final CTTextureArea HAMMER_OVERLAY = new CTTextureArea(GuiTextures.HAMMER_OVERLAY);
+    @ZenProperty public static final CTTextureArea PAPER_OVERLAY = new CTTextureArea(GuiTextures.PAPER_OVERLAY);
+    @ZenProperty public static final CTTextureArea PRINTED_PAPER_OVERLAY = new CTTextureArea(GuiTextures.PRINTED_PAPER_OVERLAY);
+    @ZenProperty public static final CTTextureArea IN_SLOT_OVERLAY = new CTTextureArea(GuiTextures.IN_SLOT_OVERLAY);
+    @ZenProperty public static final CTTextureArea OUT_SLOT_OVERLAY = new CTTextureArea(GuiTextures.OUT_SLOT_OVERLAY);
+    @ZenProperty public static final CTTextureArea FILTER_SLOT_OVERLAY = new CTTextureArea(GuiTextures.FILTER_SLOT_OVERLAY);
+    @ZenProperty public static final CTTextureArea STRING_SLOT_OVERLAY = new CTTextureArea(GuiTextures.STRING_SLOT_OVERLAY);
+    @ZenProperty public static final CTTextureArea PROGRESS_BAR_UNLOCK = new CTTextureArea(GuiTextures.PROGRESS_BAR_UNLOCK);
+    @ZenProperty public static final CTTextureArea PROGRESS_BAR_ARROW = new CTTextureArea(GuiTextures.PROGRESS_BAR_ARROW);
+    @ZenProperty public static final CTTextureArea PROGRESS_BAR_ARROW_MULTIPLE = new CTTextureArea(GuiTextures.PROGRESS_BAR_ARROW_MULTIPLE);
+    @ZenProperty public static final CTTextureArea PROGRESS_BAR_BATH = new CTTextureArea(GuiTextures.PROGRESS_BAR_BATH);
+    @ZenProperty public static final CTTextureArea PROGRESS_BAR_BENDING = new CTTextureArea(GuiTextures.PROGRESS_BAR_BENDING);
+    @ZenProperty public static final CTTextureArea PROGRESS_BAR_CANNER = new CTTextureArea(GuiTextures.PROGRESS_BAR_CANNER);
+    @ZenProperty public static final CTTextureArea PROGRESS_BAR_CIRCUIT = new CTTextureArea(GuiTextures.PROGRESS_BAR_CIRCUIT);
+    @ZenProperty public static final CTTextureArea PROGRESS_BAR_COMPRESS = new CTTextureArea(GuiTextures.PROGRESS_BAR_COMPRESS);
+    @ZenProperty public static final CTTextureArea PROGRESS_BAR_EXTRACT = new CTTextureArea(GuiTextures.PROGRESS_BAR_EXTRACT);
+    @ZenProperty public static final CTTextureArea PROGRESS_BAR_EXTRUDER = new CTTextureArea(GuiTextures.PROGRESS_BAR_EXTRUDER);
+    @ZenProperty public static final CTTextureArea PROGRESS_BAR_HAMMER = new CTTextureArea(GuiTextures.PROGRESS_BAR_HAMMER);
+    @ZenProperty public static final CTTextureArea PROGRESS_BAR_LATHE = new CTTextureArea(GuiTextures.PROGRESS_BAR_LATHE);
+    @ZenProperty public static final CTTextureArea PROGRESS_BAR_MACERATE = new CTTextureArea(GuiTextures.PROGRESS_BAR_MACERATE);
+    @ZenProperty public static final CTTextureArea PROGRESS_BAR_MAGNET = new CTTextureArea(GuiTextures.PROGRESS_BAR_MAGNET);
+    @ZenProperty public static final CTTextureArea PROGRESS_BAR_RECYCLER = new CTTextureArea(GuiTextures.PROGRESS_BAR_RECYCLER);
+    @ZenProperty public static final CTTextureArea PROGRESS_BAR_SIFT = new CTTextureArea(GuiTextures.PROGRESS_BAR_SIFT);
+    @ZenProperty public static final CTTextureArea PROGRESS_BAR_SLICE = new CTTextureArea(GuiTextures.PROGRESS_BAR_SLICE);
+    @ZenProperty public static final CTTextureArea PROGRESS_BAR_WIREMILL = new CTTextureArea(GuiTextures.PROGRESS_BAR_WIREMILL);
+}
