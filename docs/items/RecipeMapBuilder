@@ -1,0 +1,31 @@
+# RecipeMapBuilder
+
+## import
+`import mods.devtech.RecipeMapBuilder;`
+
+## .build(name)
+> This will declare the builder.
+>
+> **Type:** Method
+> **Returns:** RecipeMapBuilder
+> | Parameters          | types         |
+> |---------------------|---------------|
+> | name                | string        |
+
+## .build(name, minInputs, maxInputs, minOutputs, maxOutputs, minFluidInputs, maxFluidInputs, minFluidOutputs, maxFluidOutputs)
+> This will declare the builder and the slots.
+>
+> **Type:** Method
+> **Returns:** RecipeMapBuilder
+> | Parameters              | types         |
+> |-------------------------|---------------|
+> | name                    | string        |
+> | minInputs               | int           |
+> | maxInputs               | int           |
+> | minOutputs              | int           |
+> | maxOutputs              | int           |
+> | minFluidInputs          | int           |
+> | maxFluidInputs          | int           |
+> | minFluidOutputs         | int           |
+> | maxFluidOutputs         | int           |
+

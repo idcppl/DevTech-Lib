@@ -1,0 +1,27 @@
+# OverlaySlot
+
+## import
+`import mods.devtech.OverlaySlot;`
+
+## .create(isOutput, isFluid, isLast, texture)
+> This will create a slot overlay or progressbar.
+>
+> **Type:** Method
+> **Returns:** OverlaySlot
+> | Parameters          | types         |
+> |---------------------|---------------|
+> | isOutput            | bool          |
+> | isFluid             | bool          |
+> | isLast              | bool          |
+> | texture             | TextureArea   |
+
+## .create(isOutput, isFluid, texture)
+> This will create a slot overlay or progressbar.
+>
+> **Type:** Method
+> **Returns:** OverlaySlot
+> | Parameters          | types         |
+> |---------------------|---------------|
+> | isOutput            | bool          |
+> | isFluid             | bool          |
+> | texture             | TextureArea   |

@@ -1,0 +1,9 @@
+# MoveType
+
+## import
+`import mods.devtech.MoveType;`
+
+## Types
+- `VERTICAL`
+- `HORIZONTAL`
+- `VERTICAL_INVERTED`

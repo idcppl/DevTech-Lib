@@ -31,25 +31,18 @@ public class CTOrePrefix {
     }
 
     @ZenMethod
-    public static CTOrePrefix createOrePrefix(String value, String materialIconType, long flags, CTMaterialPredicate condition) {
+    public static CTOrePrefix create(String value, String materialIconType, long flags, CTMaterialPredicate condition) {
         return new CTOrePrefix(value, "Do I Really Need a Name?", -1, null, CTMaterialIconType.createMaterialIconType(materialIconType).getInternal(), flags, condition::test);
     }
 
     @ZenMethod
-    public static CTOrePrefix createOrePrefix(String value, CTMaterialIconType materialIconType, long flags, CTMaterialPredicate condition) {
+    public static CTOrePrefix create(String value, CTMaterialIconType materialIconType, long flags, CTMaterialPredicate condition) {
         return new CTOrePrefix(value, "Do I Really Need a Name?", -1, null, materialIconType.getInternal(), flags, condition::test);
     }
 
     @ZenMethod
     public static CTOrePrefix get(String value) {
         return new CTOrePrefix(OrePrefix.valueOf(value));
-    }
-
-    @ZenMethod
-    public void registerRecipes() {
-        if(orePrefix != null) {
-            orePrefix.addProcessingHandler(DustMaterial.class, OreRecipeHandler::processOre);
-        }
     }
 
     @Nullable

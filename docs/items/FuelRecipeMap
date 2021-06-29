@@ -1,0 +1,13 @@
+# FuelRecipeMap
+
+## import
+`import mods.gregtech.recipe.FuelRecipeMap;`
+
+## .build(name)
+> This will make a new FuelRecipeMap.
+>
+> **Type:** Method
+> **Returns:** FuelRecipeMap
+> | Parameters          | types     |
+> |---------------------|-----------|
+> | name                | string    |
