@@ -12,7 +12,7 @@ import org.apache.logging.log4j.Logger;
 public class DevTechLib {
     public static final String MODID = "devtech";
     public static final String NAME = "DevTech: Lib";
-    public static final String VERSION = "0.0.3";
+    public static final String VERSION = "0.0.5";
 
     public static Logger logger;
 

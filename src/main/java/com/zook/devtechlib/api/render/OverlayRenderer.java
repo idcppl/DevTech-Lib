@@ -24,7 +24,7 @@ public class OverlayRenderer {
     }
 
     @ZenMethod
-    static OverlayRenderer create(String path, ConstantOverlayFace... faces) {
+    public static OverlayRenderer create(String path, ConstantOverlayFace... faces) {
         OrientedOverlayRenderer.OverlayFace[] arr = new OrientedOverlayRenderer.OverlayFace[faces.length];
         for (int i = 0; i < faces.length; i++) {
             arr[i] = faces[i].getInternal();

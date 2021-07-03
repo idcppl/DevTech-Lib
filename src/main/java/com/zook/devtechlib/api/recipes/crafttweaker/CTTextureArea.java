@@ -24,12 +24,12 @@ public class CTTextureArea {
     }
 
     @ZenMethod
-    static CTTextureArea areaOfImage(String imageLocation, int imageSizeX, int imageSizeY, int u, int v, int width, int height) {
+    public static CTTextureArea areaOfImage(String imageLocation, int imageSizeX, int imageSizeY, int u, int v, int width, int height) {
         return new CTTextureArea(TextureArea.areaOfImage(imageLocation, imageSizeX, imageSizeY, u, v, width, height));
     }
 
     @ZenMethod
-    static CTTextureArea fullImage(String imageLocation) {
+    public static CTTextureArea fullImage(String imageLocation) {
         return new CTTextureArea(new TextureArea(new ResourceLocation(imageLocation), 0, 0, 1, 1));
     }
 }
